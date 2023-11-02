@@ -3,7 +3,7 @@ using System;
 public class bisiesto{
     public static void Main(string[] args){
         int anio;
-        bool cie = false, troc = false, bis = false;
+        bool bis = false;
         
         Console.WriteLine("Ingrese un año");
         anio = Convert.ToInt32(Console.ReadLine());
